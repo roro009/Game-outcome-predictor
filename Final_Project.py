@@ -20,7 +20,7 @@ def add_bg_from_url():
         f"""
         <style>
         .stApp {{
-            background-image: url("C:/Users/rohan/OneDrive/Desktop/INTRO TO INFORMATICS/Final_project/bg.avif");
+            background-image: url("bg.avif");
             background-size: cover;
         }}
         </style>
@@ -29,7 +29,7 @@ def add_bg_from_url():
     )
 # Function to load and preprocess data
 def load_data():
-    file_path = 'C:/Users/rohan/OneDrive/Desktop/INTRO TO INFORMATICS/LAB/Data_for_project/archive/games.csv'  # Update with the correct path
+    file_path = 'games.csv'  # Update with the correct path
     games_df = pd.read_csv(file_path)
     # Data Cleaning and Preprocessing
 
